@@ -1,0 +1,20 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+
+<section class="section team-section">
+  <p class="eyebrow">Team</p>
+
+  <div class="team-grid" aria-label="Team members">
+    {% for member in site.data.team %}
+      <article class="team-card">
+        <img src="{{ member.image | default: '/assets/images/team/avatar-placeholder.svg' | relative_url }}" alt="{{ member.name }}">
+        <h3>{{ member.name }}</h3>
+        <p class="team-title">{{ member.title }}</p>
+        <p>{{ member.description }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,89 @@
+- name: Shajay Bhooshan
+  title: Strategic Innovation
+  description: High performance geometry, game urbanism.
+  image: /assets/images/team/Profile_Shajay.png
+- name: Vishu Bhooshan
+  title: Spatial Technology Stack
+  description: Geometry processing, machine learning, and AI.
+  image: /assets/images/team/Profile_Vishu.png
+- name: Henry David Louth
+  title: Game Technologies
+  description: Digital and robotic fabrication, geometry processing.
+  image: /assets/images/team/Profile_Henry.jpg
+- name: Tommaso Casucci
+  title: Geometry Processing
+  description: Architectural geometry and fabrication-aware design.
+  image: /assets/images/team/Profile_Tommaso.jpg
+- name: Jianfei Chu
+  title: Artificial Intelligence
+  description: Architectural visualization, metaverse, and game design.
+  image: /assets/images/team/Profile_Jianfei.jpg
+- name: Taizhong Chen
+  title: Computational Geometry
+  description: Spatial technology stack, design tool development.
+  image: /assets/images/team/Profile_Taizhong.jpg
+- name: Ruilin Yang
+  title: AI and Machine Learning
+  description: Metaverse and game design.
+  image: /assets/images/team/Profile_Ruilin.png
+- name: Amin Divshali
+  title: Construction Twins
+  description: Disruptive technologies.
+  image: /assets/images/team/Profile_Amin.jpg
+- name: Ben Binru Wang
+  title: Architectural Geometry
+  description: Metaverse and game design, fabrication technologies.
+  image: /assets/images/team/Profile_Binru.jpg
+- name: Teo Andonov
+  title: Computational Design
+  description: Digital fabrication, spatial configurators.
+  image: /assets/images/team/Profile_Teo.jpg
+- name: Jamil Al Bardawil
+  title: Computational Design
+  description: Fabrication technologies, parametric detailing.
+  image: /assets/images/team/Profile_Jamil.png
+- name: Hsiao Ju Lee
+  title: Computational Design
+  description: Architectural visualization.
+  image: /assets/images/team/Profile_Hsiao.png
+- name: Huining Zheng
+  title: Computational Design
+  description: Visualization.
+  image: /assets/images/team/Profile_Huining.png
+- name: Justin Hanlon
+  title: Large-scale 3D Printing
+  description: Digital and robotic fabrication, computational design.
+  image: /assets/images/team/Profile_Justin.jpg
+- name: Jingwen Chiou
+  title: Large-scale 3D Printing
+  description: Digital fabrication, computational design.
+  image: /assets/images/team/Profile_Jingwen.png
+- name: Christoph Geiger
+  title: Design Tool Development
+  description: AI and machine learning, computational design.
+  image: /assets/images/team/Profile_Christoph.png
+- name: Wo Lin
+  title: AI Configuration
+  description: Geometry processing.
+  image: /assets/images/team/Profile_Lin.png
+- name: Weijie Tao
+  title: Computational Design
+  description: Visualization.
+  image: /assets/images/team/Profile_Weijie.jpg
+- name: Charles Liang
+  title: Architectural Typologies
+  description: Computational design, visualization.
+  image: /assets/images/team/Profile_Charles.png
+- name: Daxler Zou
+  title: Computational Design
+  description: Robotic fabrication.
+  image: /assets/images/team/Profile_Daxler.jpg
+- name: Matea Pinjusic
+  title: Computational Design
+  description: Computational design.
+  image: /assets/images/team/Profile_Matea.png
+- name: Adam Twigger
+  title: Techlab Workshop Manager
+  description: Model maker.
+  image: /assets/images/team/Profile_Adam.jpg
+  

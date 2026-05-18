@@ -1,0 +1,23 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+<section class="page-heading">
+  <p class="eyebrow">Publications</p>
+</section>
+
+<section class="publication-grid" aria-label="Publications list">
+  {% assign publication_collection = site.collections | where: "label", "publications" | first %}
+  {% for publication in publication_collection.docs %}
+    <a class="publication-card" href="{{ publication.url | relative_url }}">
+      <img src="{{ publication.image | relative_url }}" alt="">
+      <div>
+        <h2>{{ publication.title }}</h2>
+        <p class="publication-authors">{{ publication.authors }}</p>
+        <p>{{ publication.year }}</p>
+      </div>
+    </a>
+  {% endfor %}
+</section>

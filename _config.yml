@@ -1,3 +1,22 @@
-theme: jekyll-theme-minimal
-title: ZHACODE Homepage
-description: Work In Progress
+title: ZHACODE
+description: Computation & Design Group, Zaha Hadid Architects
+
+collections:
+  tools:
+    output: true
+    permalink: /tools/:name/
+  publications:
+    output: true
+    permalink: /publications/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "tool"
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "publication"
