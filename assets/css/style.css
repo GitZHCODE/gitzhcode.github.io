@@ -191,6 +191,17 @@ p {
   padding: 0;
 }
 
+.listing-section {
+  padding-top: 34px;
+}
+
+.listing-section > .tool-grid,
+.listing-section > .publication-grid {
+  max-width: none;
+  margin: 52px 0 0;
+  padding: 0;
+}
+
 .image-band {
   max-width: var(--max);
   margin: 0 auto;
