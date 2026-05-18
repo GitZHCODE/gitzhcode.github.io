@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="Team member headshot placeholder">
+  <rect width="640" height="640" fill="#eeeeeb"/>
+  <circle cx="320" cy="244" r="112" fill="#c9c9c4"/>
+  <path d="M126 640c22-118 98-190 194-190s172 72 194 190H126z" fill="#b6b6b0"/>
+  <path d="M0 0h640v640H0z" fill="none" stroke="#dedbd3" stroke-width="2"/>
+</svg>
