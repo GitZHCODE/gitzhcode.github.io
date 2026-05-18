@@ -21,17 +21,19 @@ layout: default
     {% endif %}
   </header>
 
-  {% if page.abstract %}
-    <section class="publication-section">
-      <h3>Abstract</h3>
-      <p>{{ page.abstract }}</p>
-    </section>
-  {% endif %}
+  <section class="publication-details">
+    {% if page.abstract %}
+      <div class="publication-section">
+        <h3>Abstract</h3>
+        <p>{{ page.abstract }}</p>
+      </div>
+    {% endif %}
 
-  {% if page.citation %}
-    <section class="publication-section">
-      <h3>Citation</h3>
-      <pre><code>{{ page.citation | escape }}</code></pre>
-    </section>
-  {% endif %}
+    {% if page.citation %}
+      <div class="publication-section">
+        <h3>Citation</h3>
+        <pre><code>{{ page.citation | escape }}</code></pre>
+      </div>
+    {% endif %}
+  </section>
 </article>

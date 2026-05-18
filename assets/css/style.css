@@ -136,6 +136,7 @@ p {
 }
 
 .section,
+.page-section,
 .page-heading,
 .tool-grid,
 .publication-grid,
@@ -178,6 +179,16 @@ p {
 
 .page-heading h1 {
   margin-bottom: 0;
+}
+
+.page-section {
+  padding-top: 112px;
+}
+
+.page-section > .tool-grid {
+  max-width: none;
+  margin: 34px 0 0;
+  padding: 0;
 }
 
 .image-band {
@@ -340,7 +351,7 @@ p {
   aspect-ratio: 1.78;
   object-fit: cover;
   border: 1px solid var(--line);
-  margin-bottom: 46px;
+  margin-bottom: 30px;
 }
 
 .publication-hero h1 {
@@ -364,9 +375,17 @@ p {
   font-size: 14px;
 }
 
-.publication-section {
+.publication-details {
   max-width: 760px;
-  margin-top: 72px;
+  margin-top: 48px;
+}
+
+.publication-section {
+  margin-top: 42px;
+}
+
+.publication-section:first-child {
+  margin-top: 0;
 }
 
 .publication-section h2 {
@@ -453,6 +472,7 @@ p {
   }
 
   .section,
+  .page-section,
   .page-heading,
   .tool-grid,
   .publication-grid,
