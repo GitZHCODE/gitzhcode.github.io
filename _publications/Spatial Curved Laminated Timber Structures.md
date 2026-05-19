@@ -1,7 +1,7 @@
 ---
 title: Spatial Curved Laminated Timber Structures
 authors: Bhooshan, V., Nahmad, A., Singer, P., Chen, T., Mao, L., Louth, H.D. and Bhooshan, S.
-year: 2024
+year: 2023
 keywords: Digital timber, Laminated timber, Computational parametric design, 3D graphic statics, Fabrication aware design, Digital robotic fabrication, Mesh modeling environments
 link: "https://doi.org/10.1007/978-3-031-36922-3_43"
 image: /assets/images/publications/Spatial Curved Laminated Timber Structures.jpg

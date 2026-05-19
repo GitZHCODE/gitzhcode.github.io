@@ -1,7 +1,7 @@
 ---
 title: "A prefabricated dining pavilion: Using structural skeletons, developable offset meshes, kerf-cut and bent sheet materials"
 authors: Louth, H., Reeves, D., Koren, B., Bhooshan, S. and Schumacher, P.
-year: 2024
+year: 2017
 keywords: Developable Surfaces, Prefabrication, Architectural Geometry, Project Delivery,  Design workflow, Parametric Design
 link: "https://doi.org/10.2307/j.ctt1n7qkg7.12"
 image: /assets/images/publications/A prefabricated dining pavilion Using structural skeletons, developable offset meshes, kerf-cut and bent sheet materials.jpg
