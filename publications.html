@@ -5,19 +5,45 @@ permalink: /publications/
 ---
 
 <section class="section listing-section">
-  <p class="eyebrow">Publications</p>
+  <div class="listing-header">
+    <p class="eyebrow">Publications</p>
+    <label class="order-control">
+      <span>Order By</span>
+      <select id="publication-order" aria-label="Order publications by date">
+        <option value="newest">Newest to Oldest</option>
+        <option value="oldest">Oldest to Newest</option>
+      </select>
+    </label>
+  </div>
 
   <div class="publication-grid" aria-label="Publications list">
     {% assign publication_collection = site.collections | where: "label", "publications" | first %}
-    {% for publication in publication_collection.docs %}
-      <a class="publication-card" href="{{ publication.url | relative_url }}">
+    {% assign sorted_publications = publication_collection.docs | sort: "year" | reverse %}
+    {% for publication in sorted_publications %}
+      <a class="publication-card" href="{{ publication.url | relative_url }}" data-year="{{ publication.year }}">
         <img src="{{ publication.image | relative_url }}" alt="">
         <div>
           <h2>{{ publication.title }}</h2>
           <p class="publication-authors">{{ publication.authors }}</p>
-          <p>{{ publication.year }}</p>
+          <p class="publication-year">{{ publication.year }}</p>
         </div>
       </a>
     {% endfor %}
   </div>
 </section>
+
+<script>
+  const publicationOrder = document.querySelector("#publication-order");
+  const publicationGrid = document.querySelector(".publication-grid");
+
+  if (publicationOrder && publicationGrid) {
+    publicationOrder.addEventListener("change", () => {
+      const cards = Array.from(publicationGrid.querySelectorAll(".publication-card"));
+      const direction = publicationOrder.value === "newest" ? -1 : 1;
+
+      cards
+        .sort((a, b) => direction * (Number(a.dataset.year) - Number(b.dataset.year)))
+        .forEach((card) => publicationGrid.appendChild(card));
+    });
+  }
+</script>
