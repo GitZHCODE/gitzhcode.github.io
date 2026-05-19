@@ -5,7 +5,7 @@ year: 2018
 keywords: Computational form-finding, Force density method, Thrust network analysis, Architectural geometry, Mesh modelling environment, Mesh datastructures
 link: "https://doi.org/10.1007/s00004-018-0402-z"
 image: /assets/images/publications/MayaVault—a mesh modelling environment for discrete funicular structures.png
-order: 4
+order: 6
 abstract: >-
   The didactic and fabrication related value of a geometric form-finding method such as Thrust Network Analysis(TNA) has already been established through RhinoVault. However, it also serves as the origin of our proposition that the objectives of the TNA method are better served within a Mesh Modelling Environment (MME). The main contributions of the paper are:
   1. Incorporating geometric stiffness based form finding methods within an MME.

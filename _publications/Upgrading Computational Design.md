@@ -1,0 +1,15 @@
+---
+title: Upgrading Computational Design
+authors: Bhooshan, S.
+year: 2016
+keywords: computational design, parametricism, tectonism
+link: "https://doi.org/10.29117/gsm4q.2019.0029"
+image: /assets/images/publications/Upgrading Computational Design.jpg
+order: 25
+abstract: >-
+  Having recently marked the centenary of the creation of Le Corbusier’s influential set of abstract and prototypical architectural principals, Maison dom-ino (1914–15), it is worth considering one of its principal contributions: the way that it embraced technological confidence and the optimism of the time within an architectural discourse. It also recalls the techno-centric histories penned by Sigfried Giedion1 during the same period, and their wider influence. Le Corbusier’s invention and Giedion’s work were significant in terms of both their direct dissemination of and indirect influences on the emerging modern architectural cultures of the developing world. Parametricism,2 although often debated for its merits and demerits as an architectural style, endeavours to similarly unify disparate efforts in computational design across the globe and to incorporate technological advances within its theoretical discourse, all of which is conducive to the systemic upgrading of computational practice within architectural design.
+  Ever since the revolutionary invention of Ivan Sutherland’s Sketchpad as the first computer-aided design (CAD) software in 1963, architecture has certainly been a forerunner among design disciplines in adopting the use of the computer. The article here, however, focuses on a contemporary history of computational design over the last 15 years. In Animate Form,3 his 1999 article and book by the same name, Greg Lynn made a now-famous call to architects to rethink their relation to computer software and to retool themselves. Architects have since worked vigorously in doing exactly that. In the process, architecture has witnessed exploratory phases of the discovery of possibilities, and exploitative phases of invention in the use of computer software and physical computing. Parametricism has sought to recognise both, as periods where either extraordinary diagrams or ordinary diagrams are privileged.4
+  These two diagrams types are distinct: in the former, the operative means and protocols to transform ideas into architectural production are not clearly known, while in the latter they are. The argument here is that the discipline and profession of architecture currently exhibits features that are consistent with an exploitative phase of consolidation where the ordinary diagram is more prevalent. This is what we might call ‘Parametricism 2.0’. Such a focused endeavour on assimilating and refining the findings mined during the prior exploratory phase is necessary for the systemic evolution of computational capabilities, as can be discerned in the following aspects for contemporary computational design practice.
+citation: >-
+  Bhooshan, S., 2016. Upgrading computational design. Architectural Design, 86(2), pp.44-53.
+---
