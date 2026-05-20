@@ -13,6 +13,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   margin: 0;
   background: var(--bg);
@@ -368,12 +372,11 @@ p {
   padding: 26px 24px 30px;
 }
 
-.tool-card span {
-  display: block;
+.tool-card h2 {
   margin-bottom: 22px;
   color: var(--theme);
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.32;
 }
 
@@ -383,6 +386,14 @@ p {
   color: var(--muted);
   font-size: 15px;
   line-height: 1.35;
+}
+
+.tool-card .tool-description {
+  color: var(--ink);
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.22;
 }
 
 .publication-grid {
@@ -447,7 +458,11 @@ p {
 }
 
 .publication-card .publication-authors {
-  font-weight: 700;
+  color: var(--ink);
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.22;
 }
 
 .tool-article,
@@ -480,7 +495,10 @@ p {
 .publication-hero .publication-authors {
   max-width: 680px;
   color: var(--ink);
-  font-weight: 700;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.22;
 }
 
 .publication-hero .publication-year {
@@ -500,7 +518,6 @@ p {
   margin-top: 48px;
 }
 
-.tool-details h2,
 .publication-section {
   margin-top: 42px;
 }
@@ -516,6 +533,28 @@ p {
 
 .tool-details h2:first-child {
   margin-top: 0;
+}
+
+.tool-details h3,
+.publication-section h3 {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.32;
+}
+
+.tool-details p,
+.tool-details li,
+.publication-details p,
+.publication-details li {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.tool-details li,
+.publication-details li {
+  margin-bottom: 10px;
 }
 
 .publication-section pre {

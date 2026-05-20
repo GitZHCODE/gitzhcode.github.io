@@ -2,6 +2,7 @@
 title: Intelligent Component
 description: A Grasshopper tool for editing, organising, and live-reloading shared custom C# code and classes in VS Code.
 image: /assets/images/tools/intelligent-component/cover.png
+year: 2026
 order: 1
 ---
 

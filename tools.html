@@ -8,13 +8,16 @@ permalink: /tools/
   <p class="eyebrow">Tools</p>
 
   <div class="tool-grid" aria-label="Tools list">
-    {% assign tools = site.tools | sort: "order" %}
+    {% assign tools = site.tools | sort: "order" | sort: "year" | reverse %}
     {% for tool in tools %}
       <a class="tool-card" href="{{ tool.url | relative_url }}">
         <img src="{{ tool.image | relative_url }}" alt="">
         <div>
-          <span>{{ tool.title }}</span>
-          <p>{{ tool.description }}</p>
+          <h2>{{ tool.title }}</h2>
+          <p class="tool-description">{{ tool.description }}</p>
+          {% if tool.year %}
+            <p class="tool-year">{{ tool.year }}</p>
+          {% endif %}
         </div>
       </a>
     {% endfor %}
