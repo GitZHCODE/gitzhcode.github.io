@@ -8,7 +8,7 @@ permalink: /about/
   <p class="eyebrow">Team</p>
 
   <div class="team-grid" aria-label="Team members">
-    {% for member in site.data.team %}
+    {% for member in site.data.team.current %}
       <article class="team-card">
         <img src="{{ member.image | default: '/assets/images/team/avatar-placeholder.svg' | relative_url }}" alt="{{ member.name }}">
         <h3>{{ member.name }}</h3>
@@ -17,4 +17,34 @@ permalink: /about/
       </article>
     {% endfor %}
   </div>
+
+  <details class="people-drawer">
+    <summary>All People</summary>
+
+    <div class="people-sections">
+      <section class="people-list-section" aria-labelledby="alumni-heading">
+        <h3 id="alumni-heading">Alumni</h3>
+        <ul class="people-list">
+          {% for person in site.data.team.alumni %}
+            <li>
+              <span>{{ person.name }}</span>
+              <span>{{ person.start_year }}-{{ person.end_year }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="people-list-section" aria-labelledby="interns-heading">
+        <h3 id="interns-heading">Interns</h3>
+        <ul class="people-list">
+          {% for person in site.data.team.interns %}
+            <li>
+              <span>{{ person.name }}</span>
+              <span>{{ person.start_year }}-{{ person.end_year }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+  </details>
 </section>

@@ -273,6 +273,70 @@ p {
   font-weight: 800;
 }
 
+.people-drawer {
+  margin-top: 72px;
+}
+
+.people-drawer summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 0;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  list-style: none;
+  text-transform: none;
+}
+
+.people-drawer summary::-webkit-details-marker {
+  display: none;
+}
+
+.people-drawer summary:hover {
+  color: var(--ink);
+}
+
+.people-sections {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 58px;
+  margin-top: 42px;
+  padding-top: 42px;
+  border-top: 1px solid var(--line);
+}
+
+.people-list-section h2 {
+  margin-bottom: 24px;
+  font-size: clamp(26px, 3vw, 42px);
+}
+
+.people-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.people-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+.people-list li span:last-child {
+  flex: 0 0 auto;
+  color: var(--muted);
+}
+
 .tool-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -503,6 +567,7 @@ p {
   .tool-grid,
   .publication-grid,
   .team-grid,
+  .people-sections,
   .article-hero {
     grid-template-columns: 1fr;
   }

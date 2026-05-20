@@ -1,93 +1,266 @@
-- name: Shajay Bhooshan
-  title: Strategic Innovation
-  description: High performance geometry, game urbanism.
-  image: /assets/images/team/Profile_Shajay.png
-- name: Vishu Bhooshan
-  title: Spatial Technology Stack
-  description: Geometry processing, machine learning, and AI.
-  image: /assets/images/team/Profile_Vishu.png
-- name: Henry David Louth
-  title: Game Technologies
-  description: Digital and robotic fabrication, geometry processing.
-  image: /assets/images/team/Profile_Henry.jpg
-- name: Tommaso Casucci
-  title: Geometry Processing
-  description: Architectural geometry and fabrication-aware design.
-  image: /assets/images/team/Profile_Tommaso.jpg
-- name: Jianfei Chu
-  title: Artificial Intelligence
-  description: Architectural visualization, metaverse, and game design.
-  image: /assets/images/team/Profile_Jianfei.jpg
-- name: Taizhong Chen
-  title: Computational Geometry
-  description: Spatial technology stack, design tool development.
-  image: /assets/images/team/Profile_Taizhong.jpg
-- name: Ruilin Yang
-  title: AI and Machine Learning
-  description: Metaverse and game design.
-  image: /assets/images/team/Profile_Ruilin.png
-- name: Amin Divshali
-  title: Construction Twins
-  description: Disruptive technologies.
-  image: /assets/images/team/Profile_Amin.jpg
-- name: Ben Binru Wang
-  title: Architectural Geometry
-  description: Metaverse and game design, fabrication technologies.
-  image: /assets/images/team/Profile_Binru.jpg
-- name: Teo Andonov
-  title: Computational Design
-  description: Digital fabrication, spatial configurators.
-  image: /assets/images/team/Profile_Teo.jpg
-- name: Jamil Al Bardawil
-  title: Computational Design
-  description: Fabrication technologies, parametric detailing.
-  image: /assets/images/team/Profile_Jamil.png
-- name: Hsiao Ju Lee
-  title: Computational Design
-  description: Architectural visualization.
-  image: /assets/images/team/Profile_Hsiao.png
-- name: Huining Zheng
-  title: Computational Design
-  description: Visualization.
-  image: /assets/images/team/Profile_Huining.png
-- name: Justin Hanlon
-  title: Large-scale 3D Printing
-  description: Digital and robotic fabrication, computational design.
-  image: /assets/images/team/Profile_Justin.jpg
-- name: Jingwen Chiou
-  title: Large-scale 3D Printing
-  description: Digital fabrication, computational design.
-  image: /assets/images/team/Profile_Jingwen.png
-- name: Christoph Geiger
-  title: Design Tool Development
-  description: AI and machine learning, computational design.
-  image: /assets/images/team/Profile_Christoph.png
-- name: Wo Lin
-  title: AI Configuration
-  description: Geometry processing.
-  image: /assets/images/team/Profile_Lin.png
-- name: Weijie Tao
-  title: Computational Design
-  description: Visualization.
-  image: /assets/images/team/Profile_Weijie.jpg
-- name: Charles Liang
-  title: Architectural Typologies
-  description: Computational design, visualization.
-  image: /assets/images/team/Profile_Charles.png
-- name: Daxler Zou
-  title: Computational Design
-  description: Robotic fabrication.
-  image: /assets/images/team/Profile_Daxler.jpg
-- name: Matea Pinjusic
-  title: Computational Design
-  description: Computational design.
-  image: /assets/images/team/Profile_Matea.png
-- name: Juan Castaneda
-  title: Computational Design
-  description: Visualization.
-  image: /assets/images/team/Profile_Juan.png
-- name: Adam Twigger
-  title: Techlab Workshop Manager
-  description: Model maker.
-  image: /assets/images/team/Profile_Adam.jpg
-  
+current:
+  - name: Shajay Bhooshan
+    start_year: 2007
+    title: Strategic Innovation
+    description: High performance geometry, game urbanism.
+    image: /assets/images/team/Profile_Shajay.png
+  - name: Vishu Bhooshan
+    start_year: 2013
+    title: Spatial Technology Stack
+    description: Geometry processing, machine learning, and AI.
+    image: /assets/images/team/Profile_Vishu.png
+  - name: Henry David Louth
+    start_year: 2014
+    title: Game Technologies
+    description: Digital and robotic fabrication, geometry processing.
+    image: /assets/images/team/Profile_Henry.jpg
+  - name: Tommaso Casucci
+    start_year: 2015
+    title: Geometry Processing
+    description: Architectural geometry and fabrication-aware design.
+    image: /assets/images/team/Profile_Tommaso.jpg
+  - name: Jianfei Chu
+    start_year: 2019
+    title: Artificial Intelligence
+    description: Architectural visualization, metaverse, and game design.
+    image: /assets/images/team/Profile_Jianfei.jpg
+  - name: Taizhong Chen
+    start_year: 2021
+    title: Computational Geometry
+    description: Spatial technology stack, design tool development.
+    image: /assets/images/team/Profile_Taizhong.jpg
+  - name: Ruilin Yang
+    start_year: 2024
+    title: AI and Machine Learning
+    description: Metaverse and game design.
+    image: /assets/images/team/Profile_Ruilin.png
+  - name: Amin Divshali
+    start_year: 2025
+    title: Construction Twins
+    description: Disruptive technologies.
+    image: /assets/images/team/Profile_Amin.jpg
+  - name: Ben Binru Wang
+    start_year: 2022
+    title: Architectural Geometry
+    description: Metaverse and game design, fabrication technologies.
+    image: /assets/images/team/Profile_Binru.jpg
+  - name: Teo Andonov
+    start_year: 2023
+    title: Computational Design
+    description: Digital fabrication, spatial configurators.
+    image: /assets/images/team/Profile_Teo.jpg
+  - name: Jamil Al Bardawil
+    start_year: 2022
+    title: Computational Design
+    description: Fabrication technologies, parametric detailing.
+    image: /assets/images/team/Profile_Jamil.png
+  - name: Hsiao Ju Lee
+    start_year: 2025
+    title: Computational Design
+    description: Architectural visualization.
+    image: /assets/images/team/Profile_Hsiao.png
+  - name: Huining Zheng
+    start_year: 2023
+    title: Computational Design
+    description: Visualization.
+    image: /assets/images/team/Profile_Huining.png
+  - name: Justin Hanlon
+    start_year: 2024
+    title: Large-scale 3D Printing
+    description: Digital and robotic fabrication, computational design.
+    image: /assets/images/team/Profile_Justin.jpg
+  - name: Jingwen Chiou
+    start_year: 2024
+    title: Large-scale 3D Printing
+    description: Digital fabrication, computational design.
+    image: /assets/images/team/Profile_Jingwen.png
+  - name: Christoph Geiger
+    start_year:
+    title: Design Tool Development
+    description: AI and machine learning, computational design.
+    image: /assets/images/team/Profile_Christoph.png
+  - name: Wo Lin
+    start_year: 2024
+    title: AI Configuration
+    description: Geometry processing.
+    image: /assets/images/team/Profile_Lin.png
+  - name: Weijie Tao
+    start_year: 2025
+    title: Computational Design
+    description: Visualization.
+    image: /assets/images/team/Profile_Weijie.jpg
+  - name: Charles Liang
+    start_year: 2025
+    title: Architectural Typologies
+    description: Computational design, visualization.
+    image: /assets/images/team/Profile_Charles.png
+  - name: Daxler Zou
+    start_year: 2025
+    title: Computational Design
+    description: Robotic fabrication.
+    image: /assets/images/team/Profile_Daxler.jpg
+  - name: Matea Pinjusic
+    start_year: 2026
+    title: Computational Design
+    description: Computational design.
+    image: /assets/images/team/Profile_Matea.png
+  - name: Juan Castaneda
+    start_year: 2025
+    title: Computational Design
+    description: Visualization.
+    image: /assets/images/team/Profile_Juan.png
+  - name: Adam Twigger
+    start_year:
+    title: Techlab Workshop Manager
+    description: Model maker.
+    image: /assets/images/team/Profile_Adam.jpg
+  - name: Liam Rogers
+    start_year:
+    title: Tech Lab Workshop Assistant
+    description: Rapid Prototyping, Model maker.
+    image: /assets/images/team/Profile_Liam.jpg
+
+alumni:
+  - name: Matt Walker
+    start_year: 2022
+    end_year: 2026
+  - name: Jayanaveenaa Periyasamy
+    start_year: 2024
+    end_year: 2026
+  - name: Jennifer Durand
+    start_year: 2022
+    end_year: 2025
+  - name: Yutong Xia
+    start_year: 2022
+    end_year: 2025
+  - name: Vlad Levyant
+    start_year: 2023
+    end_year: 2025
+  - name: Keerti Manney
+    start_year: 2023
+    end_year: 2025
+  - name: Lars Elseth
+    start_year: 2023
+    end_year: 2025
+  - name: Wanqi Shi
+    start_year: 2024
+    end_year: 2025
+  - name: Tommaso Pardini
+    start_year: 2025
+    end_year: 2025
+  - name: Heba Eiz
+    start_year: 2021
+    end_year: 2024
+  - name: Taeyoon Kim
+    start_year: 2021
+    end_year: 2024
+  - name: Ling Mao
+    start_year: 2022
+    end_year: 2024
+  - name: Effie Douroudi
+    start_year: 2022
+    end_year: 2024
+  - name: Oliver Moldow
+    start_year: 2023
+    end_year: 2024
+  - name: Sergio Mutis
+    start_year: 2023
+    end_year: 2024
+  - name: Cesar Fragachan
+    start_year: 2019
+    end_year: 2023
+  - name: Tim Fu
+    start_year: 2021
+    end_year: 2023
+  - name: Aditya Bhosle
+    start_year: 2021
+    end_year: 2023
+  - name: Edward Meyers
+    start_year: 2021
+    end_year: 2023
+  - name: Cheolyoung Park
+    start_year: 2022
+    end_year: 2023
+  - name: Philip Singer
+    start_year: 2020
+    end_year: 2022
+  - name: Sobitha Ravichandran
+    start_year: 2021
+    end_year: 2022
+  - name: Federico Borello
+    start_year: 2017
+    end_year: 2021
+  - name: Stratis Georgios
+    start_year: 2017
+    end_year: 2021
+  - name: Leo Bieling
+    start_year: 2018
+    end_year: 2021
+  - name: Jackson Hexin Bi
+    start_year: 2020
+    end_year: 2021
+  - name: Ryan Hughes
+    start_year: 2020
+    end_year: 2021
+  - name: Marko Margeta
+    start_year: 2016
+    end_year: 2020
+  - name: Mathias Fuchs
+    start_year: 2017
+    end_year: 2020
+  - name: Wei-Yu Hsiao
+    start_year: 2018
+    end_year: 2020
+  - name: Nicolas Raswitscher
+    start_year: 2020
+    end_year: 2020
+  - name: Rasha Al-Shami
+    start_year: 2018
+    end_year: 2019
+  - name: Taole Chen
+    start_year: 2018
+    end_year: 2019
+  - name: David Reeves
+    start_year: 2014
+    end_year: 2018
+  - name: Filippo Nasetti
+    start_year: 2015
+    end_year: 2018
+  - name: Ilya Pereyaslavtsev
+    start_year: 2016
+    end_year: 2018
+  - name: Ramon Weber
+    start_year: 2016
+    end_year: 2018
+  - name: Suryansh Chandra
+    start_year: 2009
+    end_year: 2015
+  - name: Mostafa El Sayed
+    start_year: 2010
+    end_year: 2015
+  - name: Danilo Arsic
+    start_year: 2007
+    end_year: 2010
+
+interns:
+  - name: Desislava Paneva
+    start_year: 2025
+    end_year: 2026
+  - name: Paula Houwald
+    start_year: 2024
+    end_year: 2025
+  - name: Daniel Tong
+    start_year: 2017
+    end_year: 2017
+  - name: Li Chen
+    start_year: 2016
+    end_year: 2016
+  - name: Ruxandra Matei
+    start_year: 2016
+    end_year: 2016
+  - name: Vladislav Bek-Bulatov
+    start_year: 2016
+    end_year: 2016
+  - name: Jan Lauinger
+    start_year: 2015
+    end_year: 2015
