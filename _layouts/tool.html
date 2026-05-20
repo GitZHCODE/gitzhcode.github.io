@@ -2,18 +2,17 @@
 layout: default
 ---
 
-<article class="tool-article">
+<article class="tool-article publication-article">
   <a class="back-link" href="{{ '/tools/' | relative_url }}">Back to tools</a>
-  <header class="article-hero">
+
+  <header class="tool-hero publication-hero">
     <img src="{{ page.image | relative_url }}" alt="">
-    <div>
-      <p class="eyebrow">Tool</p>
-      <h1>{{ page.title }}</h1>
-      <p>{{ page.description }}</p>
-    </div>
+    <p class="eyebrow">Tool</p>
+    <h2>{{ page.title }}</h2>
+    <p class="tool-description">{{ page.description }}</p>
   </header>
 
-  <div class="article-body">
+  <section class="tool-details publication-details">
     {{ content }}
-  </div>
+  </section>
 </article>

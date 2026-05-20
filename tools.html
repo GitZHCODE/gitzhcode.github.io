@@ -12,8 +12,10 @@ permalink: /tools/
     {% for tool in tools %}
       <a class="tool-card" href="{{ tool.url | relative_url }}">
         <img src="{{ tool.image | relative_url }}" alt="">
-        <span>{{ tool.title }}</span>
-        <p>{{ tool.description }}</p>
+        <div>
+          <span>{{ tool.title }}</span>
+          <p>{{ tool.description }}</p>
+        </div>
       </a>
     {% endfor %}
   </div>
