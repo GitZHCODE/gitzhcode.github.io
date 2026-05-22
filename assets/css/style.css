@@ -69,6 +69,7 @@ nav a:hover,
 
 .hero {
   position: relative;
+  container-type: inline-size;
   min-height: 78vh;
   display: grid;
   align-items: end;
@@ -88,8 +89,9 @@ nav a:hover,
 
 .hero-copy {
   position: relative;
-  max-width: 860px;
-  padding: 0 0 58px 42px;
+  width: 100%;
+  max-width: 72%;
+  padding: 0 3.75% 5.25%;
   color: #ffffff;
   text-shadow: 0 1px 18px rgba(0, 0, 0, 0.32);
 }
@@ -120,6 +122,13 @@ h1 {
   font-size: clamp(56px, 9vw, 126px);
   line-height: 0.92;
   letter-spacing: 0;
+}
+
+.hero h1 {
+  max-width: 100%;
+  font-size: 7.2cqw;
+  overflow-wrap: normal;
+  text-wrap: balance;
 }
 
 h2 {
@@ -591,7 +600,13 @@ p {
   }
 
   .hero-copy {
-    padding: 0 18px 34px;
+    max-width: 100%;
+    padding: 0 4.75% 10.75%;
+  }
+
+  .hero h1 {
+    font-size: 14.8cqw;
+    line-height: 0.96;
   }
 
   .intro,
